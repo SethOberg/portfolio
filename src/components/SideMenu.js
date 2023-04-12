@@ -63,7 +63,9 @@ export default function SideMenu() {
     <div>
       {["left"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}>
+            <MenuIcon id="openBtn" />
+          </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

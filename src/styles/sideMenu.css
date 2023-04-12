@@ -12,3 +12,7 @@
 .links a:hover {
   background-color: #e17a00;
 }
+
+#openBtn {
+  color: #333;
+}

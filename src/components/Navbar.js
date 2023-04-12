@@ -34,7 +34,7 @@ const Navbar = () => {
             PORTFOLIO
           </Typography>
 
-          <IconButton
+          {/* <IconButton
             onClick={() => printSomething()}
             size="large"
             edge="start"
@@ -43,9 +43,9 @@ const Navbar = () => {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
+          <SideMenu />
         </Toolbar>
-        <SideMenu />
       </AppBar>
     </Box>
   );

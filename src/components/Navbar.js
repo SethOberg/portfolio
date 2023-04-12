@@ -9,6 +9,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { BorderBottom } from "@mui/icons-material";
+import SideMenu from "./SideMenu";
 
 function printSomething() {
   console.log("Button clicked!!!");
@@ -44,6 +45,7 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
         </Toolbar>
+        <SideMenu />
       </AppBar>
     </Box>
   );

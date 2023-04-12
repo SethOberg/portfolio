@@ -1,0 +1,14 @@
+.links {
+  padding: 15px;
+}
+
+.links a {
+  color: #ffffff;
+  background-color: #041ae3;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.links a:hover {
+  background-color: #e17a00;
+}

@@ -1,0 +1,21 @@
+#contentBox {
+  text-align: left;
+}
+
+#contentTitle {
+  padding: 5px;
+  color: #fff;
+  background-color: #041ae3;
+  display: inline-flex;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+#contentText {
+  padding: 15px;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: justify;
+}

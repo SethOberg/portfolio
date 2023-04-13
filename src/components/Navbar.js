@@ -22,7 +22,7 @@ const Navbar = () => {
         <Toolbar>
           <CircleIcon sx={{ mr: 2, color: "#E17A00" }} fontSize="large" />
           <Typography variant="h8" component="div" sx={{ flexGrow: 1 }}>
-            PORTFOLIO
+            Seth Öberg
           </Typography>
           <SideMenu />
         </Toolbar>

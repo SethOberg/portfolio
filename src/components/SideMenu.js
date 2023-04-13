@@ -1,11 +1,10 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
+import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import { NavLink } from "react-router-dom";
@@ -63,9 +62,16 @@ export default function SideMenu() {
     <div>
       {["left"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>
+          <IconButton
+            onClick={toggleDrawer(anchor, true)}
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
             <MenuIcon id="openBtn" />
-          </Button>
+          </IconButton>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

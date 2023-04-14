@@ -9,6 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import { NavLink } from "react-router-dom";
 import "../styles/sideMenu.css";
+import { rgbToHex } from "@mui/material";
 
 export default function SideMenu() {
   const [state, setState] = React.useState({
@@ -28,7 +29,10 @@ export default function SideMenu() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{
+        width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
+        boxShadow: 0,
+      }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
@@ -76,6 +80,11 @@ export default function SideMenu() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            BackdropProps={{
+              style: { backgroundColor: "#D2D2D2", opacity: 0.75 },
+            }}
+            sx={{ boxShadow: 0 }}
+            children={{ style: { boxShadow: 0 } }}
           >
             {list(anchor)}
           </Drawer>

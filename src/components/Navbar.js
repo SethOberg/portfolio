@@ -5,6 +5,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import CircleIcon from "@mui/icons-material/Circle";
 import SideMenu from "./SideMenu";
+import { NavLink } from "react-router-dom";
+import "../styles/navbar.css";
 
 const Navbar = () => {
   return (
@@ -19,9 +21,9 @@ const Navbar = () => {
           boxShadow: 0,
         }}
       >
-        <Toolbar>
+        <Toolbar component={NavLink} to="/">
           <CircleIcon sx={{ mr: 2, color: "#E17A00" }} fontSize="large" />
-          <Typography variant="h8" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h8" sx={{ flexGrow: 1 }}>
             Seth Öberg
           </Typography>
           <SideMenu />

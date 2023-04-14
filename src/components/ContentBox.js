@@ -10,6 +10,17 @@ const ContentBox = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint
           animi neque quasi ipsa hic, distinctio sed iste id quae sunt ea ex
           dolores cum, modi quis porro, minus nisi.
+          <br />
+          <br />
+          <b>Links:</b>
+          <ul>
+            <li>
+              <a href="/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="/">Github</a>
+            </li>
+          </ul>
         </div>
       </div>
 

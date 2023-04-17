@@ -1,4 +1,30 @@
 #indexContent {
   padding: 20px;
   background-color: #d9d9d9;
+  margin-bottom: 20px;
+}
+
+#mainPageLinks {
+  display: flex;
+  justify-content: center;
+}
+
+#mainPageLinks a {
+  display: inline-block;
+  margin-right: 7.5px;
+  background-color: #e17a00;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 7.5px;
+  transition: 0.3s;
+}
+
+#mainPageLinks a:hover {
+  background-color: #041ae3;
 }

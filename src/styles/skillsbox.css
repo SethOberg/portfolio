@@ -16,4 +16,10 @@
   font-weight: normal;
   text-transform: uppercase;
   font-size: 12px;
+  margin-top: 7.5px;
+  transition: 0.3s;
+}
+
+#skillsList li:hover {
+  background-color: #041ae3;
 }

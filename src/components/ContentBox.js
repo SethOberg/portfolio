@@ -33,7 +33,7 @@ const ContentBox = () => {
           Developer at Netcompany, August 2021 - June 2022 (11 months)
           <br />
           <br />
-          Bachelors degree, System development, 180hp
+          Bachelors degree, System development, 180hp, August 2018 - June 2021
         </div>
       </div>
     </>

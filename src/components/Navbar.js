@@ -21,9 +21,14 @@ const Navbar = () => {
           boxShadow: 0,
         }}
       >
-        <Toolbar component={NavLink} to="/">
+        <Toolbar>
           <CircleIcon sx={{ mr: 2, color: "#E17A00" }} fontSize="large" />
-          <Typography variant="h8" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h8"
+            sx={{ flexGrow: 1 }}
+            component={NavLink}
+            to="/"
+          >
             Seth Öberg
           </Typography>
           <SideMenu />

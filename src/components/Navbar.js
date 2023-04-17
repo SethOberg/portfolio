@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
-        position="static"
+        position="fixed"
         sx={{
           background: "white",
           color: "#333",
@@ -34,6 +34,7 @@ const Navbar = () => {
           <SideMenu />
         </Toolbar>
       </AppBar>
+      <Toolbar />
     </Box>
   );
 };

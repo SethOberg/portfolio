@@ -12,12 +12,12 @@ const About = () => {
         columnSpacing={5}
         rowSpacing={1}
         direction="row"
-        maxWidth="lg"
+        maxWidth="md"
       >
-        <Grid xs={12} sm={8}>
+        <Grid xs={12} sm={12} md={8}>
           <ContentBox />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={12} md={4}>
           <SkillsBox />
         </Grid>
       </Grid>

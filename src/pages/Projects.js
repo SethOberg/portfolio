@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/projectsPage.css";
+import { Container } from "@mui/material";
 
 const Projects = () => {
   return (
-    <>
+    <Container maxWidth="sm">
       <div className="contentBox">
         <div id="contentTitle">Boxinator</div>
         <div id="contentText">
@@ -99,7 +100,7 @@ const Projects = () => {
         </div>
       </div>
       {/* Other Project */}
-    </>
+    </Container>
   );
 };
 

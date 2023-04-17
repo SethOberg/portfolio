@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/mainPage.css";
 import SocialLinks from "../components/SocialLinks";
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -14,6 +15,12 @@ const Main = () => {
       </div>
       <div id="indexContent">
         <SocialLinks showLinks={true} />
+      </div>
+      <div id="indexContent">
+        <div id="mainPageLinks">
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
+        </div>
       </div>
     </>
   );

@@ -63,7 +63,7 @@ const ContentBox = () => {
       </div>
 
       <div className="contentBox">
-        <div id="contentTitle">Contact</div>
+        <div id="contentTitle">Links</div>
         <div id="contentText">
           <SocialLinks showText={false} />
         </div>

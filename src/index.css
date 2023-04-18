@@ -12,6 +12,8 @@ body {
   margin: 0;
   margin-top: 10px;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .socialLinks li {

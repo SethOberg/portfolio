@@ -35,6 +35,8 @@ const Projects = () => {
           <ul id="skillsList">
             <li>Java</li>
             <li>JPA</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
             <li>Hibernate</li>
             <li>Spring Security</li>
             <li>Javascript</li>
